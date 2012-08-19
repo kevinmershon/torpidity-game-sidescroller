@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Sidescroller Game</title>
+<style>
+	body {
+		background-color: #000000;
+		margin: auto;
+		text-align: center;
+		width: 800px;
+	}
+	div {
+		margin: auto;
+		text-align: left;
+		width: 800px;
+	}
+	textarea {
+		height: 100px;
+		width: 800px;
+	}
+</style>
+<script type="text/javascript">
+	var logBox = null;
+	
+	function clearLog() {
+		logBox = document.getElementById('logBox')
+		logBox.value = "";
+	}
+	
+	function logMessage(message) {
+		var logText = message + "\n" + logBox.value;
+		logBox.value = logText;
+	}
+</script>
+</head>
+<body onload="clearLog();">
+	
+	<object width="800" height="600">
+		<param name="allownetworking" value="all" />
+		<param name="movie" value="main.swf" />
+		<param name="allowscriptaccess" value="always" />
+		<embed src="main.swf" width="800" height="600">
+		</embed>
+	</object>
+	<div>
+		<textarea id="logBox"></textarea>
+		<input type="button" onclick="clearLog()" value="Clear Log" />
+	</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="level_metadata.xsl"?>
+<level name="Development Level" backgroundColor="101050">
+	<objects>
+		<character type="player" xPosition="100" yPosition="500"/>
+		<character type="shadow" xPosition="790" yPosition="170"/>
+<!-- Begin Elevated Tiles -->
+		<tile type="platform1" xPosition="450" yPosition="425"/>
+		<tile type="platform1" xPosition="775" yPosition="250"/>
+<!-- End Elevated Tiles -->
+
+<!-- Begin Grass -->
+		<tile type="grass" xPosition="0000" yPosition="575" zIndex="101"/>
+		<tile type="grass" xPosition="0256" yPosition="575" zIndex="101"/>
+		<tile type="grass" xPosition="0512" yPosition="575" zIndex="101"/>
+		<tile type="grass" xPosition="0768" yPosition="575" zIndex="101"/>
+		<tile type="grass" xPosition="1024" yPosition="575" zIndex="101"/>
+		<tile type="grass" xPosition="1280" yPosition="575" zIndex="101"/>
+		<tile type="grass" xPosition="1536" yPosition="575" zIndex="101"/>
+		<!-- Begin Layer 1 -->
+		<tile type="ground2" xPosition="0000" yPosition="600"/>
+		<tile type="ground2" xPosition="0256" yPosition="600"/>
+		<tile type="ground2" xPosition="0512" yPosition="600"/>
+		<tile type="ground2" xPosition="0768" yPosition="600"/>
+		<tile type="ground2" xPosition="1024" yPosition="600"/>
+		<tile type="ground2" xPosition="1280" yPosition="600"/>
+		<tile type="ground2" xPosition="1536" yPosition="600"/>
+		<!-- End Layer 1 -->
+		<!-- Begin Layer 2 -->
+		<tile type="ground2" xPosition="0000" yPosition="728"/>
+		<tile type="ground2" xPosition="0128" yPosition="728"/>
+		<tile type="ground2" xPosition="0256" yPosition="728"/>
+		<tile type="ground2" xPosition="0384" yPosition="728"/>
+		<tile type="ground2" xPosition="0512" yPosition="728"/>
+		<tile type="ground2" xPosition="0768" yPosition="728"/>
+		<tile type="ground2" xPosition="1024" yPosition="728"/>
+		<tile type="ground2" xPosition="1280" yPosition="728"/>
+		<tile type="ground2" xPosition="1536" yPosition="728"/>
+		<!-- End Layer 2 -->
+<!-- End Grass -->
+
+<!-- Begin Stone Tiles -->
+		<tile type="stone_floor_left"  xPosition="1000" yPosition="508" zIndex="99"/>
+		<tile type="stone_floor_flat"  xPosition="1089" yPosition="508" zIndex="99"/>
+		<tile type="stone_floor_flat"  xPosition="1217" yPosition="508" zIndex="99"/>
+		<tile type="stone_floor_flat"  xPosition="1345" yPosition="508" zIndex="99"/>
+		<tile type="stone_floor_flat"  xPosition="1473" yPosition="508" zIndex="99"/>
+		<tile type="stone_floor_flat"  xPosition="1601" yPosition="508" zIndex="99"/>
+		<tile type="stone_floor_right" xPosition="1729" yPosition="508" zIndex="99"/>
+
+
+		<tile type="stone_floor_left"  xPosition="1128" yPosition="428" zIndex="98"/>
+		<tile type="stone_floor_flat"  xPosition="1217" yPosition="428" zIndex="98"/>
+		<tile type="stone_floor_flat"  xPosition="1345" yPosition="428" zIndex="98"/>
+		<tile type="stone_floor_flat"  xPosition="1473" yPosition="428" zIndex="98"/>
+		<tile type="stone_floor_right" xPosition="1601" yPosition="428" zIndex="98"/>
+<!-- End Stone Tiles -->
+
+		<item type="blue_powerup" xPosition="975" yPosition="100"/>
+	</objects>
+</level>

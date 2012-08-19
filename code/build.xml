@@ -1,0 +1,18 @@
+<project name="Sidescroller Game" default="test-swf" basedir=".">
+	<property name="mxmlc" location="mxmlc"/>
+	
+	<target name="compile-swf">
+		<java jar="/opt/flex-sdk/lib/mxmlc.jar" fork="true" dir="." failonerror="true">
+			<arg line="+flexlib=/opt/flex-sdk/frameworks"/>
+			<arg line="src/Test.as"/>
+			<arg line="-default-size 800 600"/>
+			<arg line="-output bin/main.swf"/>
+		</java>
+	</target>
+	
+	<target name="test-swf" depends="compile-swf">
+		<exec executable="firefox" dir=".">
+			<arg line="http://localhost/workspace/Sidescroller%20Game/bin/main.html"/>
+		</exec>
+	</target>
+</project>
